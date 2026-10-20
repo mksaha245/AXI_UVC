@@ -1,0 +1,6 @@
+Run options:
+1. For simple single WRITE and READ TX you can run "axi_samle_test"
+2. Test for sequential WRITE and READ from same Address
+  +num_wr_tx=10 +num_rd_tx=2 +test_name=axi_back_to_back_wr_rd_test 
+3. Test for Random read and write from random address "The preload test":
+  +num_rd_tx=2 +test_name=axi_back_to_back_wr_rd_test +preload=1
